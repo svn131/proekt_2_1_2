@@ -13,7 +13,7 @@ public class AppConfig {
     }
 
 
-    @Bean(name = "catss")
+    @Bean(name = "cats")
     @Scope("prototype")
     public Cat getCat() {
         Cat cat = new Cat();
